@@ -1,0 +1,80 @@
+:root {
+    --font-heading: "scandia-web", sans-serif;
+    --font-body: system-ui, sans-serif;
+
+    --grey-900: hsl(240, 14%, 100%);
+    --grey-800: hsl(240, 14%, 87.5%);
+    --grey-700: hsl(240, 14%, 75%);
+    --grey-600: hsl(240, 14%, 62.5%);
+    --grey-500: hsl(240, 14%, 50%);
+    --grey-400: hsl(240, 14%, 37.5%);
+    --grey-300: hsl(240, 14%, 25%);
+    --grey-200: hsl(240, 14%, 12.5%);
+    --grey-100: hsl(240, 14%, 0%);
+
+    --font-size-xxl: 4rem;
+    --font-size-xl: 2.5rem;
+    --font-size-l: 1.75rem;
+    --font-size-m: 1.125rem;
+    --font-size-n: 1rem;
+    --font-size-s: 0.875rem;
+    --font-size-xs: 0.75rem;
+    --font-size-xxs:0.625rem;
+
+    --background-color: var(--grey-800);
+    --ink-color: var(--grey-200);
+    --paper-color: var(--grey-900);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--ink-color);
+    font-family: var(--font-body);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    line-height: 1.285;
+}
+
+h4 {
+    font-family: var(--font-body);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.headline {
+    text-wrap: balance;
+}
+
+main {
+    background-color: var(--grey-900);
+    padding: 2rem;
+    max-width: 70ch;
+    margin: 0 auto;
+}
