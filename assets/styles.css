@@ -12,14 +12,15 @@
     --grey-200: hsl(240, 14%, 12.5%);
     --grey-100: hsl(240, 14%, 0%);
 
-    --font-size-xxl: 4rem;
-    --font-size-xl: 2.5rem;
-    --font-size-l: 1.75rem;
-    --font-size-m: 1.125rem;
-    --font-size-n: 1rem;
-    --font-size-s: 0.875rem;
-    --font-size-xs: 0.75rem;
-    --font-size-xxs:0.625rem;
+    --font-size-700: 2.986rem;
+    --font-size-600: 2.488rem;
+    --font-size-500: 2.074rem;
+    --font-size-400: 1.728rem;
+    --font-size-300: 1.44rem;
+    --font-size-200: 1.2rem;
+    --font-size-100: 1rem;
+    --font-size-90: 0.833rem;
+    --font-size-80: 0.694rem;
 
     --background-color: var(--grey-800);
     --ink-color: var(--grey-200);
@@ -34,7 +35,6 @@ body {
     background-color: var(--background-color);
     color: var(--ink-color);
     font-family: var(--font-body);
-    font-size: var(--font-size-m);
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
@@ -42,30 +42,47 @@ body {
 
 h1 {
     font-family: var(--font-heading);
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-700);
     font-weight: 600;
-    line-height: 1.125;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
     font-family: var(--font-heading);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-600);
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-family: var(--font-heading);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-500);
     font-weight: 600;
-    line-height: 1.285;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
 }
 
 h4 {
-    font-family: var(--font-body);
-    font-size: var(--font-size-m);
-    font-weight: 700;
-    line-height: 1.5;
+    font-family: var(--font-heading);
+    font-size: var(--font-size-400);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.022em;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: var(--font-size-200);
+    margin: 0 0 1rem;
 }
 
 .headline {
